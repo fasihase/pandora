@@ -64,8 +64,6 @@ Download(and Unzip) or Clone the project from https://github.com/fasihase/pandor
 
 #### http://127.0.0.1:8000/api/employees/1/
 
-#### http://127.0.0.1:8000/api/employees/?company=PERMADYNE
-
 JSON:
 
     {

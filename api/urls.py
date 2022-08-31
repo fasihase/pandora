@@ -17,7 +17,7 @@ router.register(r"employees", views.CompanyEmployeesViewset, basename="employees
 urlpatterns = [
     path("", include(router.urls)),
     path(
-        "api/twopeople/<int:pk1>/<int:pk2>/",
+        "twopeople/<int:pk1>/<int:pk2>/",
         views.TwoPeopleView.as_view(),
         name="twopeople",
     ),
